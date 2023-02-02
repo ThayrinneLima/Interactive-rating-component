@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Overpass", sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+.card{
+    padding:16px;
+    width: 28%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 16px;
+    color: white;
+    overflow: auto;
+    background-color: hsl(213, 19%, 18%);
+    box-shadow: 2px 2px 8px hsla(183, 24%, 38%, 0.643);
+    position:absolute;
+    z-index: 10;  
+    
+}
+
+.star{
+    width:32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(214, 19%, 22%);
+    border-radius: 16px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 15px;
+    color:hsl(216, 12%, 54%);
+}
+
+.number{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rating{
+    width:45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(214, 19%, 22%);
+    border-radius: 24px;
+}
+.rating:hover{
+    transition: 0.5s ease;
+    cursor: pointer;
+    background-color: hsl(216, 12%, 54%);
+}
+.active{
+    transition: 0.5s ease;
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit{
+    width:70%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 16px;
+    text-transform: uppercase;
+    border-style: none;
+}
+
+.submit:hover{
+    transition: 0.5s ease;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+
+
+#card1{
+    display:flex;
+}
+#card2{
+    display:none;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thank{
+    width: 40%;
+
+}
+.escolhido{
+    width:40%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(214, 19%, 22%);
+    border-radius: 16px;
+    border-style: none;
+    font-size: 12px;
+}
+
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 8px;
+    font-size: 12px; 
+    text-align: center; 
+    color: #fff;
+    font-family: "Kumbh Sans";
+    font-weight: 700;
+}
